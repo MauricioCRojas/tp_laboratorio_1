@@ -61,7 +61,9 @@ int main()
             else {
             suma= sumaf(x,y);
             resta= restaf(x,y);
+            if (y!=0){
             division= divisionf(x,y);
+            }
             multiplicacion= multiplicacionf(x,y);
             factorialA= factorialfa (x);
             factorialB= factorialfb (y);
@@ -88,10 +90,18 @@ int main()
             printf (" B= %.2f\n", y);
             printf("a) El resultado de %.2f+%.2f es: %.2f\n",x,y,suma);
             printf("b) El resultado de %.2f-%.2f es: %.2f\n",x,y,resta);
+             if (y==0){
+                printf("c) No se puede dividir por 0\n");
+            }
+            else {
             printf("c) El resultado de %.2f/%.2f es: %.2f\n",x,y,division);
+            }
             printf("d) El resultado de %.2f*%.2f es: %.2f\n",x,y,multiplicacion);
             printf("e) El factorial de %.2f es: %.2f y El factorial de %.2f es: %.2f\n",x,factorialA,y, factorialB);
             system ("pause");
+            flag1op=0;
+            flag2op=0;
+            flagcalcular=0;
             }
             break;
         case 5:
