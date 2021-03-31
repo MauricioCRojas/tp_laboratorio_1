@@ -73,5 +73,6 @@ float factorialfb (float b);
 
 
 /** \brief menu de opciones simple para calculadora
+ * \return retorna la opcion ingresada
  */
-void menu ();
+int menu ();

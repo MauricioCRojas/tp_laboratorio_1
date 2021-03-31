@@ -58,14 +58,24 @@ return factorial;
 
 
 
-void menu ()
+int menu ()
 {
+int opcion;
 
-    printf ("***** Menu *****\n\n");
+    printf ("       ***** Menu *****\n\n");
     printf ("1) Ingrese primer operando: \n");
     printf("2) Ingrese segundo operando: \n");
     printf("3) Calcular todas las operaciones\n");
     printf("4) Informar resultados\n");
     printf("5) Salir\n\n");
+    printf ("Ingrese opcion: \n");
+    scanf ("%d", &opcion);
+        /*while (!(opcion ==1 || opcion == 2 || opcion == 3 || opcion == 4 || opcion == 5)){
+            printf ("Opcion invalida. Ingrese opcion: \n");
+            scanf ("%d", &opcion);
+        }//funciona solo si se ingresar numeros erroneos, pero si ingresar char se rompe
+        */
+
+    return opcion;
 
 }
