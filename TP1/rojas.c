@@ -58,23 +58,24 @@ return factorial;
 
 
 
-int menu ()
+int menu (float a, float b)
 {
 int opcion;
-
-    printf ("       ***** Menu *****\n\n");
-    printf ("1) Ingrese primer operando: \n");
-    printf("2) Ingrese segundo operando: \n");
+    printf (" -----------------------------------------\n");
+    printf (" ||||||***** MENU DE OPCIONES *****|||||| \n");
+    printf (" -----------------------------------------\n\n");
+    printf ("1) Ingrese primer operando: (A = %.2f)\n",a);
+    printf("2) Ingrese segundo operando: (B = %.2f)\n",b);
     printf("3) Calcular todas las operaciones\n");
+    printf("    a) Calcular la suma %.2f + %.2f\n",a,b);
+    printf("    b) Calcular la resta %.2f - %.2f\n",a,b);
+    printf("    c) Calcular la division %.2f / %.2f\n",a,b);
+    printf("    d) Calcular la multiplicacion %.2f * %.2f\n",a,b);
+    printf("    e) Calcular el factorial de %.2f y de %.2f\n",a,b);
     printf("4) Informar resultados\n");
     printf("5) Salir\n\n");
     printf ("Ingrese opcion: \n");
     scanf ("%d", &opcion);
-        /*while (!(opcion ==1 || opcion == 2 || opcion == 3 || opcion == 4 || opcion == 5)){
-            printf ("Opcion invalida. Ingrese opcion: \n");
-            scanf ("%d", &opcion);
-        }//funciona solo si se ingresar numeros erroneos, pero si ingresar char se rompe
-        */
 
     return opcion;
 

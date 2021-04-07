@@ -73,6 +73,8 @@ float factorialfb (float b);
 
 
 /** \brief menu de opciones simple para calculadora
+ * \param float a, primer operando
+ * \param float b, segundo operando
  * \return retorna la opcion ingresada
  */
-int menu ();
+int menu (float a, float b);

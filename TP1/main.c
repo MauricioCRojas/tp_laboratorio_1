@@ -24,7 +24,7 @@ int main()
     {
         system ("cls");
 
-        switch(menu())
+        switch(menu(x,y))
         {
         case 1://primer opcion, se ingresa primer operando
             printf ("Ingrese primer operando: ");
@@ -92,24 +92,27 @@ int main()
             }
             else
             {
-                printf ("A= %.2f", x);
-                printf (" B= %.2f\n", y);
-                printf("a) El resultado de %.2f+%.2f es: %.2f\n",x,y,suma);
-                printf("b) El resultado de %.2f-%.2f es: %.2f\n",x,y,resta);
+                printf ("A = %.2f", x);
+                printf (" B = %.2f\n", y);
+                printf("a) El resultado de %.2f + %.2f es: %.2f\n",x,y,suma);
+                printf("b) El resultado de %.2f - %.2f es: %.2f\n",x,y,resta);
                 if (y==0)
                 {
                     printf("c) No se puede dividir por 0\n");
                 }
                 else
                 {
-                    printf("c) El resultado de %.2f/%.2f es: %.2f\n",x,y,division);
+                    printf("c) El resultado de %.2f / %.2f es: %.2f\n",x,y,division);
                 }
-                printf("d) El resultado de %.2f*%.2f es: %.2f\n",x,y,multiplicacion);
+                printf("d) El resultado de %.2f * %.2f es: %.2f\n",x,y,multiplicacion);
                 printf("e) El factorial de %.2f es: %.2f y El factorial de %.2f es: %.2f\n",x,factorialA,y, factorialB);
                 system ("pause");
                 flag1op=0;
                 flag2op=0;
-                flagcalcular=0;
+                flagcalcular=0; //reinicié todos los flags
+
+                x=0;
+                y=0; //reinicié x e y
             }
             break;
         case 5://quinta opcion, se usa para salir, se debe confirmar salida
