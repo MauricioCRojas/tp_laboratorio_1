@@ -23,14 +23,26 @@
 	<stdlib.h>
 	"rojas.h"
 
-1617770009 source:c:\users\mauri\desktop\tp1\main.c
+1618174865 source:c:\users\mauri\desktop\tp1\main.c
 	<stdio.h>
 	<stdlib.h>
 	"rojas.h"
 
-1617769073 c:\users\mauri\desktop\tp1\rojas.h
+1618172729 c:\users\mauri\desktop\tp1\rojas.h
 
-1617769883 source:c:\users\mauri\desktop\tp1\rojas.c
+1618174939 source:c:\users\mauri\desktop\tp1\rojas.c
+	<stdio.h>
+	<stdlib.h>
+	"rojas.h"
+
+1618176748 source:c:\users\mauri\desktop\tp1 revisar tema y=8\main.c
+	<stdio.h>
+	<stdlib.h>
+	"rojas.h"
+
+1618172729 c:\users\mauri\desktop\tp1 revisar tema y=8\rojas.h
+
+1618176758 source:c:\users\mauri\desktop\tp1 revisar tema y=8\rojas.c
 	<stdio.h>
 	<stdlib.h>
 	"rojas.h"

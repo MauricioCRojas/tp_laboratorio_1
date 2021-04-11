@@ -5,14 +5,14 @@
 
 int main()
 {
-    float x;
-    float y;
-    float suma;
-    float resta;
+    int x=0;
+    int y=0;
+    int suma;
+    int resta;
     float division;
-    float multiplicacion;
-    float factorialA;
-    float factorialB;
+    int multiplicacion;
+    int factorialA;
+    int factorialB;
     char salir='s';
     char confirma;
     int flag1op=0;
@@ -28,7 +28,7 @@ int main()
         {
         case 1://primer opcion, se ingresa primer operando
             printf ("Ingrese primer operando: ");
-            scanf ("%f", &x);
+            scanf ("%d", &x);
             flag1op=1;
             break;
         case 2://segunda opcion, se ingresa segundo operando
@@ -41,7 +41,7 @@ int main()
             else
             {
                 printf ("Ingrese segundo operando: ");
-                scanf ("%f", &y);
+                scanf ("%d", &y);
                 flag2op=1;
             }
             break;
@@ -92,20 +92,20 @@ int main()
             }
             else
             {
-                printf ("A = %.2f", x);
-                printf (" B = %.2f\n", y);
-                printf("a) El resultado de %.2f + %.2f es: %.2f\n",x,y,suma);
-                printf("b) El resultado de %.2f - %.2f es: %.2f\n",x,y,resta);
+                printf ("A = %d", x);
+                printf (" B = %d\n", y);
+                printf("a) El resultado de %d + %d es: %d\n",x,y,suma);
+                printf("b) El resultado de %d - %d es: %d\n",x,y,resta);
                 if (y==0)
                 {
                     printf("c) No se puede dividir por 0\n");
                 }
                 else
                 {
-                    printf("c) El resultado de %.2f / %.2f es: %.2f\n",x,y,division);
+                    printf("c) El resultado de %d / %d es: %.2f\n",x,y,division);
                 }
-                printf("d) El resultado de %.2f * %.2f es: %.2f\n",x,y,multiplicacion);
-                printf("e) El factorial de %.2f es: %.2f y El factorial de %.2f es: %.2f\n",x,factorialA,y, factorialB);
+                printf("d) El resultado de %d * %d es: %d\n",x,y,multiplicacion);
+                printf("e) El factorial de %d es: %d y El factorial de %d es: %d\n",x,factorialA,y, factorialB);
                 system ("pause");
                 flag1op=0;
                 flag2op=0;

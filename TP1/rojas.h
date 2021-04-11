@@ -7,22 +7,22 @@
 
 /** \brief suma de dos numeros flotantes
  *
- * \param float a, primer operando
- * \param float b, segundo operando
+ * \param int a, primer operando
+ * \param int b, segundo operando
  * \return retorna la suma de ambos parametros
  *
  */
-float sumaf (float a, float b);
+int sumaf (int a, int b);
 
 
 /** \brief resta de dos numeros flotantes
  *
- * \param float a, primer operando
- * \param float b, segundo operando
+ * \param int a, primer operando
+ * \param int b, segundo operando
  * \return retorna la resta de ambos parametros
  *
  */
-float restaf (float a, float b);
+int restaf (int a, int b);
 
 
 
@@ -30,51 +30,51 @@ float restaf (float a, float b);
 
 /** \brief division de dos numeros flotantes
  *
- * \param float a, primer operando
- * \param float b, segundo operando
+ * \param int a, primer operando
+ * \param int b, segundo operando
  * \return retorna la division de ambos parametros
  *
  */
-float divisionf (float a, float b);
+float divisionf (int a, int b);
 
 
 
 
 /** \brief multiplicacion de dos numeros flotantes
  *
- * \param float a, primer operando
- * \param float b, segundo operando
+ * \param int a, primer operando
+ * \param int b, segundo operando
  * \return retorna la multiplicacion de ambos parametros
  *
  */
-float multiplicacionf (float a, float b);
+int multiplicacionf (int a, int b);
 
 
 
 
 /** \brief factorial de un flotante
  *
- * \param float a, operando
+ * \param int a, operando x
  * \return retorna el factorial del parametro
  *
  */
-float factorialfa (float a);
+int factorialfa (int a);
 
 
 /** \brief factorial de un flotante
  *
- * \param float b, operando
+ * \param int b, operando y
  * \return retorna el factorial del parametro
  *
  */
-float factorialfb (float b);
+int factorialfb (int b);
 
 
 
 
 /** \brief menu de opciones simple para calculadora
- * \param float a, primer operando
- * \param float b, segundo operando
+ * \param int a, primer operando
+ * \param int b, segundo operando
  * \return retorna la opcion ingresada
  */
-int menu (float a, float b);
+int menu (int a, int b);
