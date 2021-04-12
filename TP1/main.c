@@ -3,8 +3,10 @@
 #include "rojas.h"
 
 
-int main()
+int main(void)
 {
+	setbuf(stdout, NULL);
+
     int x=0;
     int y=0;
     int suma;

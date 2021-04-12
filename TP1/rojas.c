@@ -4,6 +4,7 @@
 
 int sumaf (int a, int b)
 {
+
     return a + b;
 }
 
@@ -36,10 +37,12 @@ int multiplicacionf (int a, int b)
 
 
 int factorialfa (int a){
+
 int factorial = 1;
 for (int i=1; i<=a; i++){
     factorial=factorial * i;
 }
+
 return factorial;
 }
 
