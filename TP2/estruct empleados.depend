@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1621122724 source:c:\users\mauri\eclipse-workspace\tp2\empleados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleados.h"
+	"validaciones.h"
+
+1621123293 c:\users\mauri\eclipse-workspace\tp2\empleados.h
+
+1621121454 c:\users\mauri\eclipse-workspace\tp2\validaciones.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1621121444 source:c:\users\mauri\eclipse-workspace\tp2\validaciones.c
+	"validaciones.h"
+
+1621122724 source:c:\users\mauri\eclipse-workspace\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleados.h"
+
