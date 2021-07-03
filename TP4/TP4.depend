@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1625286056 source:c:\users\mauri\desktop\tp4 code\tp4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1625242849 c:\users\mauri\desktop\tp4 code\tp4\linkedlist.h
+
+1625287364 source:c:\users\mauri\desktop\tp4 code\tp4\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1625287364 source:c:\users\mauri\desktop\tp4 code\tp4 - copia\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1625242849 c:\users\mauri\desktop\tp4 code\tp4 - copia\linkedlist.h
+
+1625294923 source:c:\users\mauri\desktop\tp4 code\tp4 - copia\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
