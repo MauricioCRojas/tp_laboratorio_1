@@ -4,6 +4,7 @@
 #include "LinkedList.h"
 #include "Employee.h"
 #include "parser.h"
+#include "Controller.h"
 
 
 /** \brief Parsea los datos los datos de los empleados desde el archivo data.csv (modo texto).
@@ -35,7 +36,7 @@ int parser_EmployeeFromText(FILE* pFile, LinkedList* pArrayListEmployee)
             break;
         }
 
-        auxEmployee=employee_newParametros(atoi(id), nombre, atoi(horasTrabajadas), atoi(sueldo));
+        auxEmployee=employee_newParametros(incrementarId(pArrayListEmployee), nombre, atoi(horasTrabajadas), atoi(sueldo));
         if(auxEmployee!=NULL)
         {
             ll_add(pArrayListEmployee, auxEmployee);
@@ -65,7 +66,7 @@ int parser_EmployeeFromBinary(FILE* pFile, LinkedList* pArrayListEmployee)
     Employee* auxEmployee;
 
     int status=1;
-    int len=1000;
+    int len=ll_len(pArrayListEmployee);
 
     pFile=fopen("data.bin", "rb");
     if(pFile!=NULL)

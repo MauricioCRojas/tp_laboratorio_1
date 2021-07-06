@@ -51,11 +51,8 @@
 		</Unit>
 		<Unit filename="validaciones.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="validaciones.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="validaciones.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

@@ -96,7 +96,7 @@ int employee_setId(Employee* eEmployee,int id)
 int employee_setNombre(Employee* eEmployee, char* nombre)
 {
     int todoOk=0;
-    if (eEmployee!=NULL && nombre!=NULL && strlen(nombre)>=3 && strlen(nombre)<20)
+    if (eEmployee!=NULL && nombre!=NULL && strlen(nombre)>=1 && strlen(nombre)<20)
     {
         strcpy(eEmployee->nombre, nombre);
         todoOk=1;

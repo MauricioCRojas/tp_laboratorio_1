@@ -44,3 +44,86 @@
 	<ctype.h>
 	<string.h>
 
+1625441732 source:c:\users\mauri\desktop\tp3 codeblocks\tp3 - copia\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1565993298 c:\users\mauri\desktop\tp3 codeblocks\tp3 - copia\linkedlist.h
+
+1624329032 c:\users\mauri\desktop\tp3 codeblocks\tp3 - copia\employee.h
+
+1625516672 source:c:\users\mauri\desktop\tp3 codeblocks\tp3 - copia\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1625442593 c:\users\mauri\desktop\tp3 codeblocks\tp3 - copia\controller.h
+
+1625443300 source:c:\users\mauri\desktop\tp3 codeblocks\tp3 - copia\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"Controller.h"
+
+1624055624 c:\users\mauri\desktop\tp3 codeblocks\tp3 - copia\parser.h
+
+1625515282 source:c:\users\mauri\desktop\tp3 codeblocks\tp3 - copia\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"Controller.h"
+	"validaciones.h"
+
+1625442380 source:c:\users\mauri\desktop\tp3\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"Controller.h"
+
+1565993298 c:\users\mauri\desktop\tp3\linkedlist.h
+
+1624329032 c:\users\mauri\desktop\tp3\employee.h
+
+1624055624 c:\users\mauri\desktop\tp3\parser.h
+
+1625442593 c:\users\mauri\desktop\tp3\controller.h
+
+1625441732 source:c:\users\mauri\desktop\tp3\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1625443300 source:c:\users\mauri\desktop\tp3\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"Controller.h"
+
+1621576917 source:c:\users\mauri\desktop\tp3 codeblocks\tp3 - copia\validaciones.c
+	"validaciones.h"
+
+1621576917 c:\users\mauri\desktop\tp3 codeblocks\tp3 - copia\validaciones.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
