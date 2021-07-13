@@ -29,6 +29,7 @@ int main()
 {
     int option = 0;
     int flagBin=0;
+    int flagLoadText=0;
 
     LinkedList* listaEmpleados = ll_newLinkedList();
 
@@ -40,6 +41,7 @@ int main()
             if(controller_loadFromText("data.csv",listaEmpleados))
             {
                 printf("Archivo de texto cargado exitosamente\n");
+                flagLoadText=1;
             }
             else
             {
@@ -65,13 +67,21 @@ int main()
             }
             break;
         case 3:
-            if(controller_addEmployee(listaEmpleados))
+            if(flagLoadText)
             {
-                printf("Empleado dado de alta con exito\n");
+                if(controller_addEmployee(listaEmpleados))
+                {
+                    printf("Empleado dado de alta con exito\n");
+                }
+                else
+                {
+                    printf("Fallo el alta de empleado\n");
+                }
             }
             else
             {
-                printf("Fallo el alta de empleado\n");
+                printf("Debe cargar el archivo antes de dar un alta\n");
+
             }
             break;
         case 4:

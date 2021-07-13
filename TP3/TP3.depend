@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1624329237 source:c:\users\mauri\desktop\tp3 codeblocks\tp3\controller.c
+1626218837 source:c:\users\mauri\desktop\tp3 codeblocks\tp3\controller.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -7,38 +7,40 @@
 	"Employee.h"
 	"parser.h"
 	"Controller.h"
+	"validaciones.h"
 
 1565993298 c:\users\mauri\desktop\tp3 codeblocks\tp3\linkedlist.h
 
 1624329032 c:\users\mauri\desktop\tp3 codeblocks\tp3\employee.h
 
-1624329060 source:c:\users\mauri\desktop\tp3 codeblocks\tp3\employee.c
+1625441732 source:c:\users\mauri\desktop\tp3 codeblocks\tp3\employee.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"LinkedList.h"
 	"Employee.h"
 
-1624329389 source:c:\users\mauri\desktop\tp3 codeblocks\tp3\main.c
+1625520063 source:c:\users\mauri\desktop\tp3 codeblocks\tp3\main.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
 	"Controller.h"
 	"Employee.h"
 
-1624328958 c:\users\mauri\desktop\tp3 codeblocks\tp3\controller.h
+1626219263 c:\users\mauri\desktop\tp3 codeblocks\tp3\controller.h
 
-1624239839 source:c:\users\mauri\desktop\tp3 codeblocks\tp3\parser.c
+1625443300 source:c:\users\mauri\desktop\tp3 codeblocks\tp3\parser.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"LinkedList.h"
 	"Employee.h"
 	"parser.h"
+	"Controller.h"
 
 1624055624 c:\users\mauri\desktop\tp3 codeblocks\tp3\parser.h
 
-1624074867 c:\users\mauri\desktop\tp3 codeblocks\tp3\validaciones.h
+1621576917 c:\users\mauri\desktop\tp3 codeblocks\tp3\validaciones.h
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
@@ -126,4 +128,7 @@
 	<stdlib.h>
 	<ctype.h>
 	<string.h>
+
+1621576917 source:c:\users\mauri\desktop\tp3 codeblocks\tp3\validaciones.c
+	"validaciones.h"
 

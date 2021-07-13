@@ -10,4 +10,5 @@ int controller_saveAsBinary(char* path , LinkedList* pArrayListEmployee);
 
 int incrementarId(LinkedList* this);
 int decrementarId(LinkedList* this);
+int incrementarIdManual(LinkedList* this);
 

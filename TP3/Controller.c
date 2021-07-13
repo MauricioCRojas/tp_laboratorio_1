@@ -10,12 +10,20 @@
 
 
 //ID autoincremental
-//static int idIncremental = 1000;
+static int idIncremental = 999;
 
+
+//Incrementar ID segun tam lista
 int incrementarId(LinkedList* this)
 {
     int tam=ll_len(this);
     return tam+=1;
+}
+
+//Incrementar ID manual
+int incrementarIdManual(LinkedList* this)
+{
+    return idIncremental+=1;
 }
 
 int decrementarId(LinkedList* this)
@@ -104,7 +112,7 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
                 !getNumero(&horasTrabajadas,"Ingrese cantidad de horas trabajadas: ", "Error\n",0,99999,3) &&
                 !getNumero(&sueldo,"Ingrese sueldo: ", "Error\n",1,999999,3))
         {
-            auxEmployee = employee_newParametros(incrementarId(pArrayListEmployee), nombre, horasTrabajadas, sueldo);
+            auxEmployee = employee_newParametros(incrementarIdManual(pArrayListEmployee), nombre, horasTrabajadas, sueldo);
 
             if(auxEmployee!=NULL)
             {
@@ -170,7 +178,7 @@ int controller_editEmployee(LinkedList* pArrayListEmployee)
 
             arrayEmployee = (Employee *)malloc(sizeof(Employee) * cant);
 
-            int idAModificar;
+            //int idAModificar;
 
             if (arrayEmployee != NULL)
             {
@@ -193,7 +201,7 @@ int controller_editEmployee(LinkedList* pArrayListEmployee)
             {
                 if ((arrayEmployee + j)->id == id)
                 {
-                    idAModificar = (arrayEmployee + j)->id;
+                    //idAModificar = (arrayEmployee + j)->id;
                     indexJ=j;
                 }
 
